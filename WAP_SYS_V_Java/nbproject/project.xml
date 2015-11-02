@@ -5,6 +5,7 @@
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
             <name>WAP_SYS_V_Java</name>
             <source-roots>
+                <root id="src.JAVA.dir"/>
                 <root id="src.App_code.dir"/>
                 <root id="src.App_data.dir"/>
             </source-roots>
