@@ -34,22 +34,22 @@ class Wap_V {
     /**
      * Property to hold the IPL main object
      */
-    IPL IPL = null ;
+    Object IPL = null ;
     
     /**
      * Property to hold the CRE main object
      */
-    CRE CRE = null ;
+    Object CRE = null ;
     
     /**
      * Property to hold the FCORE main object
      */
-    FCORE FCORE = null ;
+    Object FCORE = null ;
     
     /**
      * Property to hold the APL main object
      */
-    APL APL = null ;
+    Object APL = null ;
 
     
     /**
@@ -60,7 +60,9 @@ class Wap_V {
     {
         // Create the IPL package global object and store it on the proper WAP_V
         // property
-        this.IPL = new IPL() ;
+        // this.IPL = IPL() ;
+        this.IPL = WAP_V.Singleton.get_Instance() ;
+        
     }
     
 }

@@ -4,16 +4,12 @@
  * Author:  Antonio Jose Gomes
  * License: Artistic License 2.0
  */
-package WAP_V.IPL ;
-
-import WAP_V.* ;
+package WAP_V.IPL;
 
 /**
  *
  * @author ADMIN
  */
-public class IPL  extends  WAP_V.Singleton
-{
-    
+public class data_class {
     
 }
