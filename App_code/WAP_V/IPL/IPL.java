@@ -6,14 +6,19 @@
  */
 package WAP_V.IPL ;
 
-import WAP_V.* ;
+import WAP_V.*;
 
 /**
  *
  * @author ADMIN
  */
-public class IPL  extends  WAP_V.Singleton
+public class IPL
 {
-    
-    
+    /**
+     * Class constructor
+     */
+    public IPL()
+    {
+        
+    }
 }

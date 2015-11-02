@@ -37,7 +37,7 @@ public class Singleton
     {
         if ( singleton_object == null )
             // Call the class private constructor (internal call)
-            singleton_object = new Singleton() ;		
+            singleton_object = new Singleton() ;
     
             // Return the Singleton object
             return  singleton_object ;

@@ -10,14 +10,13 @@ package WAP_V.FCORE;
  *
  * @author ADMIN
  */
-public class FCORE {
-    
+public class FCORE
+{
     /**
-     * IPL Class constructor
+     * Class constructor
      */
     public FCORE()
     {
         
     }
-    
 }

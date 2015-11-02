@@ -12,8 +12,13 @@ import WAP_V.* ;
  *
  * @author ADMIN
  */
-public class APL  extends  Wap_V.Singleton
+public class APL
 {
-    
-    
+    /**
+     * Class constructor
+     */
+    public APL()
+    {
+        
+    }
 }

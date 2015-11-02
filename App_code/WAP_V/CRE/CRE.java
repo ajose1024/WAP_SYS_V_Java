@@ -10,14 +10,13 @@ package WAP_V.CRE;
  *
  * @author ADMIN
  */
-public class CRE {
-    
+public class CRE
+{
     /**
-     * IPL Class constructor
+     * Class constructor
      */
     public CRE()
     {
         
     }
-    
 }
