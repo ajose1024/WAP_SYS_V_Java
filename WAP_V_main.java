@@ -24,7 +24,8 @@ public class WAP_V_main
 {
     
     private static boolean xpto = false ;
-    private static Wap_V xpto_obj = null ;
+    
+    private final static Wap_V xpto_obj = null ;
     
     /**
      * Property to hold the Wap_V class object
@@ -41,7 +42,6 @@ public class WAP_V_main
         System.out.println( "Alive and kicking!!!" ) ;
         System.out.println() ;
         xpto = new WAP_V.Wap_V().show_main_objects() ;
-//        System.out.println( "Wap_V xpto_obj Object: " + ( new WAP_V_main.WAP_V.Wap_V() ) ) ;
     }
     
     
