@@ -24,7 +24,8 @@ public class WAP_V_main
 {
     
     private static boolean xpto = false ;
-    private static Wap_V xpto_obj = null ;
+    
+    private final static Wap_V xpto_obj = null ;
     
     /**
      * Property to hold the Wap_V class object
@@ -35,15 +36,19 @@ public class WAP_V_main
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args)
+    public static void main( String[] args )
     {
         // TODO code application logic here
         System.out.println( "Alive and kicking!!!" ) ;
         System.out.println() ;
+        System.out.println() ;
         xpto = new WAP_V.Wap_V().show_main_objects() ;
-//        System.out.println( "Wap_V xpto_obj Object: " + ( new WAP_V_main.WAP_V.Wap_V() ) ) ;
     }
     
+    public static Object get_this_class_object()
+    {
+        return  null ;
+    }
     
     /**
      * This is the class constructor
