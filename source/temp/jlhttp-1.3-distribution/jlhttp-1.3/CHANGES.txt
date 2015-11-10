@@ -1,0 +1,68 @@
+
+
+CHANGES IN THE 1.3 RELEASE
+--------------------------
+- Added support for content type mapping via standard mime.types file.
+- Added full support for different HTTP method handlers per context.
+- Improved compliance of built-in HTTP method handling: OPTIONS *, Allow header, 405 status, etc.
+- Replaced parseParams utility method with parseParamsList for access to multi-valued parameters.
+- Fixed MultipartInputStream handling of several valid and invalid inputs.
+- Fixed MultipartInputStream.fill when reading form a very slow input stream.
+- Optimized MultipartInputStream buffer fill using partial boundary detection.
+- Optimized MultipartInputStream latency by returning data as soon as it is available.
+- Optimized MultipartInputStream performance by reducing in-memory copying.
+- Updated Server response header string and version number.
+- Fixed formateDate GMT time calculation.
+- Fixed serving non-directory files ending with a slash.
+- Changed Range header to be ignored if content is empty (return 200 instead of 416).
+- Changed files starting with dot to return 404 on all platforms.
+- Changed handleConnection method to accept input/output streams instead of socket.
+- Changed split method to support multiple delimiters.
+- Added Request.getParamsList method.
+- Added toMap and join utility methods.
+- Added sample dynamic context handler to main method.
+- Migrated to Maven build system, directory structure and artifact conventions.
+- Added OSGi headers to jar manifest.
+- Fixed javadoc errors when building with JDK 8.
+- Revamped HTTPServer class documentation with feature list, use cases and getting started sections.
+- Improved javadocs and misc. minor refactorings.
+
+
+
+
+CHANGES IN THE 1.2 RELEASE
+--------------------------
+- Split handleTransaction into preprocessTransaction and handleMethod, making it easier for subclasses to add filters.
+- Added MultipartIterator.Part.getString() convenience method to get a form input value as a string.
+- Added Response.getChunkedBody helper method to encourage proper use when body length is unknown.
+- Renamed utility method parseULong (parseLong) and changed it to treat sign characters as invalid.
+- Renamed utility methods trimLeft (ltrim), trimRight (rtrim), and toSizeApproxString (toSizeString).
+- Added @Override annotations.
+- Changed index and error pages HTML markup to use the HTML5 doctype.
+- Added explanation on how to support file uploads (via MultipartIterator).
+- Improved documentation and misc. minor refactorings.
+
+
+
+
+CHANGES IN THE 1.1 RELEASE
+--------------------------
+- Made jar file executable (added Main-Class attribute to manifest).
+- Fixed generated index date format on non-US locale (always use US).
+- Fixed Request.parseParams() preserving of parameter order.
+- Added no-arg constructor and setPort() method to allow post-construction port setting.
+- Fixed serveFile() appending of relative path to base directory.
+- Fixed double-slash when accessing root folder.
+- Added file upload support using the MultipartInputStream and MultipartIterator classes.
+- Added ltrim utility method.
+- Added parseParameters() method for easy header parameter handling.
+- Fixed sendError() default text for success statuses.
+- Changed default error text to include both status code and status description.
+- Improved documentation.
+
+
+
+
+CHANGES IN THE 1.0 RELEASE
+--------------------------
+- This is the first release of the Java Lightweight HTTP Server.
