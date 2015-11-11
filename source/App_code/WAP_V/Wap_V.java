@@ -31,7 +31,8 @@ import WAP_V.APL.* ;
  *
  * @author ADMIN
  */
-public class Wap_V {
+public class Wap_V
+{
     
     /**
      * Property to hold the IPL main object
