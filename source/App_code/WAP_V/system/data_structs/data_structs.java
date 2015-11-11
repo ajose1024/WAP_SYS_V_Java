@@ -31,25 +31,25 @@ public class data_structs
      */
     public Object data_structs( valid_structs struct )
     {
-        Object return_val ;
-        return_val = null ;
+        Object ret_val ;
+        ret_val = null ;
         
         switch( struct )
         {
             case ASSOC_ARRAY:
                 // Return an ASSOC_ARRAY object
-                return_val = new String( "ASSOC_ARRAY" ) ;
+                ret_val = new String( "ASSOC_ARRAY" ) ;
                 break ;
                 
             case QUEUE:
                 // Return a QUEUE object
-                return_val = new String( "QUEUE" ) ;
+                ret_val = new String( "QUEUE" ) ;
                  ;
                 break ;
                 
             case STACK:
                 // Return a STACK object
-                return_val = new String( "STACK" ) ;
+                ret_val = new String( "STACK" ) ;
                 break ;
                 
             default:
@@ -57,7 +57,7 @@ public class data_structs
                 break ;
         }
         
-        return  return_val ;
+        return  ret_val ;
     }
     
 }
