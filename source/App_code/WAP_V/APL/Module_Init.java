@@ -12,12 +12,12 @@ import WAP_V.* ;
  *
  * @author ADMIN
  */
-public class APL
+public class Module_Init
 {
     /**
      * Class constructor
      */
-    public APL()
+    public Module_Init()
     {
         
     }

@@ -4,18 +4,18 @@
  * Author:  Antonio Jose Gomes
  * License: Artistic License 2.0
  */
-package WAP_V.CRE;
+package WAP_V.FCORE;
 
 /**
  *
  * @author ADMIN
  */
-public class CRE
+public class Module_Init
 {
     /**
      * Class constructor
      */
-    public CRE()
+    public Module_Init()
     {
         
     }

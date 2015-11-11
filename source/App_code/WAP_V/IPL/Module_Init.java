@@ -4,18 +4,20 @@
  * Author:  Antonio Jose Gomes
  * License: Artistic License 2.0
  */
-package WAP_V.FCORE;
+package WAP_V.IPL ;
+
+import WAP_V.*;
 
 /**
  *
  * @author ADMIN
  */
-public class FCORE
+public class Module_Init
 {
     /**
      * Class constructor
      */
-    public FCORE()
+    public Module_Init()
     {
         
     }
