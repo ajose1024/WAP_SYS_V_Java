@@ -1,4 +1,4 @@
-s/*
+/**
  * WAP Sys V -- Java implementation
  * --------------------------------
  * Author:  Antonio Jose Gomes

@@ -12,6 +12,6 @@ package WAP_V.CRE.security;
  */
 
 
-public class security {
+public class Module_Init {
     
 }

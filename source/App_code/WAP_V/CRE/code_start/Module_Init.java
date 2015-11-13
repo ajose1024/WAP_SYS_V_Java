@@ -4,7 +4,7 @@
  * Author:  Antonio Jose Gomes
  * License: Artistic License 2.0
  */
-package WAP_V.CRE.init;
+package WAP_V.CRE.code_start;
 
 /**
  *
@@ -12,6 +12,6 @@ package WAP_V.CRE.init;
  */
 
 
-public class init {
+public class Module_Init {
     
 }

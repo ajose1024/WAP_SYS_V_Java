@@ -4,7 +4,7 @@
  * Author:  Antonio Jose Gomes
  * License: Artistic License 2.0
  */
-package WAP_V.CRE.security.SAM;
+package WAP_V.CRE.init.code_runner.exception_handlers.ULS_handlers;
 
 /**
  *
@@ -12,6 +12,6 @@ package WAP_V.CRE.security.SAM;
  */
 
 
-public class SAM {
+public class Module_Init {
     
 }
