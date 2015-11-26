@@ -16,6 +16,8 @@ import WAP_V.CRE.* ;
 import WAP_V.FCORE.* ;
 import WAP_V.APL.* ;
 
+import WAP_V.xpto_foo.* ;
+
 /**
  *
  * @author ADMIN
@@ -34,7 +36,7 @@ public class WAP_V_main
     /**
      * @param args the command line arguments
      */
-    public static void main( String[] args )
+    public static void main( String[] args ) throws NoSuchMethodException 
     {
         // TODO code application logic here
         System.out.println( "Alive and kicking!!!" ) ;
@@ -42,6 +44,23 @@ public class WAP_V_main
         xpto = new WAP_V.Wap_V().show_main_objects() ;
         System.out.println() ;
         System.out.println() ;
+        
+        WAP_V.xpto_foo.xpto_foo xpto_foo_obj = new WAP_V.xpto_foo.xpto_foo() ;
+        
+        xpto_foo_obj.do_action( xpto_foo_obj, "out_data", null );
+        System.out.println() ;
+
+        xpto_foo_obj.do_action( xpto_foo_obj, "static_out_data", null );
+        System.out.println() ;
+
+//        xpto_foo_obj.do_action( xpto_foo_obj, "user_out_data", "This is the param data!" );
+        System.out.println() ;
+
+//        xpto_foo_obj.do_action( xpto_foo_obj, "user_static_out_data", "This is the param_data!!!" );
+        System.out.println() ;
+
+
+
     }
     
     
